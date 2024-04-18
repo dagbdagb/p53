@@ -1,0 +1,31 @@
+00:01.0 root_port, slot 1, device present, speed 2.5GT/s, width x16
+ └─01:00.0 legacy_endpoint
+00:1b.0 root_port, slot 16, device present, speed 8GT/s, width x4
+ └─02:00.0 endpoint, Samsung Electronics Co Ltd (144d) NVMe SSD Controller SM981/PM981/PM983 (a808)
+00:1c.0 root_port, slot 0, device present, speed 8GT/s, width x4
+ └─04:00.0 upstream_port, Intel Corporation (8086) JHL7540 Thunderbolt 3 Bridge [Titan Ridge 4C 2018] (15ea)
+    ├─05:00.0 downstream_port, slot 0, device present, speed 2.5GT/s, width x4
+    │  └─06:00.0 endpoint, Intel Corporation (8086) JHL7540 Thunderbolt 3 NHI [Titan Ridge 4C 2018] (15eb)
+    ├─05:01.0 downstream_port, slot 1, device present, speed 2.5GT/s, width x4
+    │  └─07:00.0 upstream_port, Intel Corporation (8086) JHL6540 Thunderbolt 3 Bridge (C step) [Alpine Ridge 4C 2016] (15d3)
+    │     ├─08:01.0 downstream_port, slot 0, device present, speed 2.5GT/s, width x4
+    │     │  └─09:00.0 legacy_endpoint
+    │     └─08:04.0 downstream_port, slot 4, device present, speed 2.5GT/s, width x4
+    │        └─0a:00.0 upstream_port, Intel Corporation (8086) JHL6540 Thunderbolt 3 Bridge (C step) [Alpine Ridge 4C 2016] (15d3)
+    │           ├─0b:00.0 downstream_port, slot 0, device present, speed 8GT/s, width x1
+    │           │  └─0c:00.0 endpoint, ASMedia Technology Inc. (1b21) ASM1142 USB 3.1 Host Controller (1242)
+    │           ├─0b:01.0 downstream_port, slot 0, device present, speed 8GT/s, width x1
+    │           │  └─0d:00.0 endpoint, ASMedia Technology Inc. (1b21) ASM1142 USB 3.1 Host Controller (1242)
+    │           └─0b:02.0 downstream_port, slot 0, device present, speed 8GT/s, width x1
+    │              └─0e:00.0 endpoint, ASMedia Technology Inc. (1b21) ASM1142 USB 3.1 Host Controller (1242)
+    ├─05:02.0 downstream_port, slot 0, device present, speed 2.5GT/s, width x4
+    │  └─2c:00.0 endpoint, Intel Corporation (8086) JHL7540 Thunderbolt 3 USB Controller [Titan Ridge 4C 2018] (15ec)
+    └─05:04.0 downstream_port, slot 4, device present, speed 2.5GT/s, width x4
+       └─2d:00.0 upstream_port, Intel Corporation (8086) JHL6340 Thunderbolt 3 Bridge (C step) [Alpine Ridge 2C 2016] (15da)
+          └─2e:01.0 downstream_port, slot 0, device present, speed 2.5GT/s, width x4
+             └─2f:00.0 legacy_endpoint
+00:1c.5 root_port, slot 5, device present, speed 5GT/s, width x1
+ └─52:00.0 endpoint, Intel Corporation (8086) Wi-Fi 6 AX200 (2723)
+00:1c.7 root_port, slot 7, device present, speed 5GT/s, width x1
+ └─54:00.0 endpoint, Realtek Semiconductor Co., Ltd. (10ec) RTS525A PCI Express Card Reader (525a)
+
