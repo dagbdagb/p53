@@ -1,0 +1,593 @@
+00:00.0 Host bridge: Intel Corporation 8th Gen Core Processor Host Bridge/DRAM Registers (rev 0d)
+	Subsystem: Lenovo 8th Gen Core Processor Host Bridge/DRAM Registers
+	Flags: bus master, fast devsel, latency 0, IOMMU group 1
+	Capabilities: [e0] Vendor Specific Information: Len=10 <?>
+	Kernel driver in use: skl_uncore
+
+00:01.0 PCI bridge: Intel Corporation 6th-10th Gen Core Processor PCIe Controller (x16) (rev 0d) (prog-if 00 [Normal decode])
+	Subsystem: Lenovo 6th-10th Gen Core Processor PCIe Controller (x16)
+	Flags: bus master, fast devsel, latency 0, IRQ 122, IOMMU group 2
+	Bus: primary=00, secondary=01, subordinate=01, sec-latency=0
+	I/O behind bridge: 2000-2fff [size=4K] [16-bit]
+	Memory behind bridge: bd000000-be0fffff [size=17M] [32-bit]
+	Prefetchable memory behind bridge: 90000000-a1ffffff [size=288M] [32-bit]
+	Capabilities: [88] Subsystem: Lenovo 6th-10th Gen Core Processor PCIe Controller (x16)
+	Capabilities: [80] Power Management version 3
+	Capabilities: [90] MSI: Enable+ Count=1/1 Maskable- 64bit-
+	Capabilities: [a0] Express Root Port (Slot+), IntMsgNum 0
+	Capabilities: [100] Virtual Channel
+	Capabilities: [140] Root Complex Link
+	Capabilities: [d94] Secondary PCI Express
+	Kernel driver in use: pcieport
+
+00:02.0 VGA compatible controller: Intel Corporation CoffeeLake-H GT2 [UHD Graphics 630] (rev 02) (prog-if 00 [VGA controller])
+	Subsystem: Lenovo CoffeeLake-H GT2 [UHD Graphics 630]
+	Flags: bus master, fast devsel, latency 0, IRQ 131, IOMMU group 0
+	Memory at 6040000000 (64-bit, non-prefetchable) [size=16M]
+	Memory at 4000000000 (64-bit, prefetchable) [size=256M]
+	I/O ports at 3000 [size=64]
+	Expansion ROM at 000c0000 [virtual] [disabled] [size=128K]
+	Capabilities: [40] Vendor Specific Information: Len=0c <?>
+	Capabilities: [70] Express Root Complex Integrated Endpoint, IntMsgNum 0
+	Capabilities: [ac] MSI: Enable+ Count=1/1 Maskable- 64bit-
+	Capabilities: [d0] Power Management version 2
+	Capabilities: [100] Process Address Space ID (PASID)
+	Capabilities: [200] Address Translation Service (ATS)
+	Capabilities: [300] Page Request Interface (PRI)
+	Kernel driver in use: i915
+
+00:04.0 Signal processing controller: Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Thermal Subsystem (rev 0d)
+	Subsystem: Lenovo Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Thermal Subsystem
+	Flags: fast devsel, IRQ 16, IOMMU group 3
+	Memory at 6041000000 (64-bit, non-prefetchable) [size=32K]
+	Capabilities: [90] MSI: Enable- Count=1/1 Maskable- 64bit-
+	Capabilities: [d0] Power Management version 3
+	Capabilities: [e0] Vendor Specific Information: Len=0c <?>
+	Kernel driver in use: proc_thermal
+
+00:08.0 System peripheral: Intel Corporation Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th/8th Gen Core Processor Gaussian Mixture Model
+	Subsystem: Lenovo Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th/8th Gen Core Processor Gaussian Mixture Model
+	Flags: fast devsel, IRQ 255, IOMMU group 4
+	Memory at 6041011000 (64-bit, non-prefetchable) [disabled] [size=4K]
+	Capabilities: [90] MSI: Enable- Count=1/1 Maskable- 64bit-
+	Capabilities: [dc] Power Management version 2
+	Capabilities: [f0] PCI Advanced Features
+
+00:12.0 Signal processing controller: Intel Corporation Cannon Lake PCH Thermal Controller (rev 10)
+	Subsystem: Lenovo Cannon Lake PCH Thermal Controller
+	Flags: fast devsel, IRQ 16, IOMMU group 5
+	Memory at 6041010000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: [50] Power Management version 3
+	Capabilities: [80] MSI: Enable- Count=1/1 Maskable- 64bit-
+	Kernel driver in use: intel_pch_thermal
+
+00:14.0 USB controller: Intel Corporation Cannon Lake PCH USB 3.1 xHCI Host Controller (rev 10) (prog-if 30 [XHCI])
+	Subsystem: Lenovo Cannon Lake PCH USB 3.1 xHCI Host Controller
+	Flags: medium devsel, IRQ 147, IOMMU group 6
+	Memory at be220000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: [70] Power Management version 2
+	Capabilities: [80] MSI: Enable+ Count=8/8 Maskable- 64bit+
+	Capabilities: [90] Vendor Specific Information: Len=14 <?>
+	Kernel driver in use: xhci_hcd
+
+00:14.2 RAM memory: Intel Corporation Cannon Lake PCH Shared SRAM (rev 10)
+	Subsystem: Lenovo Cannon Lake PCH Shared SRAM
+	Flags: fast devsel, IOMMU group 6
+	Memory at 6041008000 (64-bit, non-prefetchable) [disabled] [size=8K]
+	Memory at 604100f000 (64-bit, non-prefetchable) [disabled] [size=4K]
+	Capabilities: [80] Power Management version 3
+
+00:15.0 Serial bus controller: Intel Corporation Cannon Lake PCH Serial IO I2C Controller #0 (rev 10)
+	Subsystem: Lenovo Cannon Lake PCH Serial IO I2C Controller
+	Flags: bus master, fast devsel, latency 0, IRQ 16, IOMMU group 7
+	Memory at 604100e000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [90] Vendor Specific Information: Len=14 <?>
+	Kernel driver in use: intel-lpss
+
+00:15.1 Serial bus controller: Intel Corporation Cannon Lake PCH Serial IO I2C Controller #1 (rev 10)
+	Subsystem: Lenovo Cannon Lake PCH Serial IO I2C Controller
+	Flags: bus master, fast devsel, latency 0, IRQ 17, IOMMU group 7
+	Memory at 604100d000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [90] Vendor Specific Information: Len=14 <?>
+	Kernel driver in use: intel-lpss
+
+00:16.0 Communication controller: Intel Corporation Cannon Lake PCH HECI Controller (rev 10)
+	Subsystem: Lenovo Cannon Lake PCH HECI Controller
+	Flags: bus master, fast devsel, latency 0, IRQ 132, IOMMU group 8
+	Memory at 604100c000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: [50] Power Management version 3
+	Capabilities: [8c] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Capabilities: [a4] Vendor Specific Information: Len=14 <?>
+	Kernel driver in use: mei_me
+
+00:16.3 Serial controller: Intel Corporation Cannon Lake PCH Active Management Technology - SOL (rev 10) (prog-if 02 [16550])
+	Subsystem: Lenovo Cannon Lake PCH Active Management Technology - SOL
+	Flags: 66MHz, fast devsel, IRQ 255, IOMMU group 8
+	I/O ports at 3060 [size=8]
+	Memory at be231000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: [40] MSI: Enable- Count=1/1 Maskable- 64bit+
+	Capabilities: [50] Power Management version 3
+
+00:1b.0 PCI bridge: Intel Corporation Cannon Lake PCH PCI Express Root Port #17 (rev f0) (prog-if 00 [Normal decode])
+	Subsystem: Lenovo Cannon Lake PCH PCI Express Root Port
+	Flags: bus master, fast devsel, latency 0, IRQ 123, IOMMU group 9
+	Bus: primary=00, secondary=02, subordinate=02, sec-latency=0
+	I/O behind bridge: [disabled] [16-bit]
+	Memory behind bridge: be100000-be1fffff [size=1M] [32-bit]
+	Prefetchable memory behind bridge: [disabled] [64-bit]
+	Capabilities: [40] Express Root Port (Slot+), IntMsgNum 0
+	Capabilities: [80] MSI: Enable+ Count=1/1 Maskable- 64bit-
+	Capabilities: [90] Subsystem: Lenovo Cannon Lake PCH PCI Express Root Port
+	Capabilities: [a0] Power Management version 3
+	Capabilities: [100] Advanced Error Reporting
+	Capabilities: [140] Access Control Services
+	Capabilities: [150] Precision Time Measurement
+	Capabilities: [200] L1 PM Substates
+	Capabilities: [220] Secondary PCI Express
+	Capabilities: [250] Downstream Port Containment
+	Kernel driver in use: pcieport
+
+00:1c.0 PCI bridge: Intel Corporation Cannon Lake PCH PCI Express Root Port #1 (rev f0) (prog-if 00 [Normal decode])
+	Subsystem: Lenovo Cannon Lake PCH PCI Express Root Port
+	Flags: bus master, fast devsel, latency 0, IRQ 124, IOMMU group 10
+	Bus: primary=00, secondary=04, subordinate=51, sec-latency=0
+	I/O behind bridge: [disabled] [16-bit]
+	Memory behind bridge: a4000000-bc1fffff [size=386M] [32-bit]
+	Prefetchable memory behind bridge: 6000000000-603fffffff [size=1G] [32-bit]
+	Capabilities: [40] Express Root Port (Slot+), IntMsgNum 0
+	Capabilities: [80] MSI: Enable+ Count=1/1 Maskable- 64bit-
+	Capabilities: [90] Subsystem: Lenovo Cannon Lake PCH PCI Express Root Port
+	Capabilities: [a0] Power Management version 3
+	Capabilities: [100] Advanced Error Reporting
+	Capabilities: [140] Access Control Services
+	Capabilities: [150] Precision Time Measurement
+	Capabilities: [220] Secondary PCI Express
+	Capabilities: [250] Downstream Port Containment
+	Kernel driver in use: pcieport
+
+00:1e.0 Communication controller: Intel Corporation Cannon Lake PCH Serial IO UART Host Controller (rev 10)
+	Subsystem: Lenovo Cannon Lake PCH Serial IO UART Host Controller
+	Flags: bus master, fast devsel, latency 0, IRQ 20, IOMMU group 11
+	Memory at 604100b000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [90] Vendor Specific Information: Len=14 <?>
+	Kernel driver in use: intel-lpss
+
+00:1f.0 ISA bridge: Intel Corporation Cannon Lake LPC Controller (rev 10)
+	Subsystem: Lenovo Cannon Lake LPC Controller
+	Flags: bus master, medium devsel, latency 0, IOMMU group 12
+
+00:1f.4 SMBus: Intel Corporation Cannon Lake PCH SMBus Controller (rev 10)
+	Subsystem: Lenovo Cannon Lake PCH SMBus Controller
+	Flags: medium devsel, IRQ 16, IOMMU group 12
+	Memory at 604100a000 (64-bit, non-prefetchable) [size=256]
+	I/O ports at efa0 [size=32]
+	Kernel driver in use: i801_smbus
+	Kernel modules: i2c_i801
+
+00:1f.5 Serial bus controller: Intel Corporation Cannon Lake PCH SPI Controller (rev 10)
+	Subsystem: Lenovo Cannon Lake PCH SPI Controller
+	Flags: fast devsel, IOMMU group 12
+	Memory at fe010000 (32-bit, non-prefetchable) [size=4K]
+
+00:1f.6 Ethernet controller: Intel Corporation Ethernet Connection (7) I219-LM (rev 10)
+	Subsystem: Lenovo Ethernet Connection (7) I219-LM
+	Flags: bus master, fast devsel, latency 0, IRQ 134, IOMMU group 12
+	Memory at be200000 (32-bit, non-prefetchable) [size=128K]
+	Capabilities: [c8] Power Management version 3
+	Capabilities: [d0] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Kernel driver in use: e1000e
+
+01:00.0 VGA compatible controller: NVIDIA Corporation TU106GLM [Quadro RTX 3000 Mobile / Max-Q] (rev a1) (prog-if 00 [VGA controller])
+	Subsystem: Lenovo TU106GLM [Quadro RTX 3000 Mobile / Max-Q]
+	Flags: bus master, fast devsel, latency 0, IRQ 155, IOMMU group 2
+	Memory at bd000000 (32-bit, non-prefetchable) [size=16M]
+	Memory at 90000000 (64-bit, prefetchable) [size=256M]
+	Memory at a0000000 (64-bit, prefetchable) [size=32M]
+	I/O ports at 2000 [size=128]
+	Expansion ROM at be080000 [virtual] [disabled] [size=512K]
+	Capabilities: [60] Power Management version 3
+	Capabilities: [68] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Capabilities: [78] Express Legacy Endpoint, IntMsgNum 0
+	Capabilities: [100] Virtual Channel
+	Capabilities: [250] Latency Tolerance Reporting
+	Capabilities: [258] L1 PM Substates
+	Capabilities: [128] Power Budgeting <?>
+	Capabilities: [420] Advanced Error Reporting
+	Capabilities: [600] Vendor Specific Information: ID=0001 Rev=1 Len=024 <?>
+	Capabilities: [900] Secondary PCI Express
+	Capabilities: [bb0] Physical Resizable BAR
+	Kernel driver in use: nvidia
+	Kernel modules: nvidia_drm, nvidia
+
+02:00.0 Non-Volatile memory controller: Samsung Electronics Co Ltd NVMe SSD Controller SM981/PM981/PM983 (prog-if 02 [NVM Express])
+	Subsystem: Samsung Electronics Co Ltd SSD 970 EVO
+	Flags: bus master, fast devsel, latency 0, IRQ 16, IOMMU group 13
+	Memory at be100000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: [40] Power Management version 3
+	Capabilities: [50] MSI: Enable- Count=1/32 Maskable- 64bit+
+	Capabilities: [70] Express Endpoint, IntMsgNum 0
+	Capabilities: [b0] MSI-X: Enable+ Count=33 Masked-
+	Capabilities: [100] Advanced Error Reporting
+	Capabilities: [148] Device Serial Number 00-00-00-00-00-00-00-00
+	Capabilities: [158] Power Budgeting <?>
+	Capabilities: [168] Secondary PCI Express
+	Capabilities: [188] Latency Tolerance Reporting
+	Capabilities: [190] L1 PM Substates
+	Kernel driver in use: nvme
+
+04:00.0 PCI bridge: Intel Corporation JHL7540 Thunderbolt 3 Bridge [Titan Ridge 4C 2018] (rev 06) (prog-if 00 [Normal decode])
+	Subsystem: Lenovo JHL7540 Thunderbolt 3 Bridge [Titan Ridge 4C 2018]
+	Physical Slot: 0
+	Flags: bus master, fast devsel, latency 0, IRQ 16, IOMMU group 14
+	Bus: primary=04, secondary=05, subordinate=51, sec-latency=0
+	I/O behind bridge: [disabled] [32-bit]
+	Memory behind bridge: a4000000-bc1fffff [size=386M] [32-bit]
+	Prefetchable memory behind bridge: 6000000000-603fffffff [size=1G] [32-bit]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [88] MSI: Enable- Count=1/1 Maskable- 64bit+
+	Capabilities: [ac] Subsystem: Lenovo JHL7540 Thunderbolt 3 Bridge [Titan Ridge 4C 2018]
+	Capabilities: [c0] Express Upstream Port, IntMsgNum 0
+	Capabilities: [50] Capability ID 0x15 [0000]
+	Capabilities: [100] Device Serial Number 49-dd-bd-31-cb-00-aa-00
+	Capabilities: [200] Advanced Error Reporting
+	Capabilities: [300] Virtual Channel
+	Capabilities: [400] Power Budgeting <?>
+	Capabilities: [500] Vendor Specific Information: ID=1234 Rev=1 Len=100 <?>
+	Capabilities: [600] Vendor Specific Information: ID=8086 Rev=2 Len=04c <?>
+	Capabilities: [700] Secondary PCI Express
+	Capabilities: [800] Latency Tolerance Reporting
+	Capabilities: [a00] L1 PM Substates
+	Capabilities: [b00] Precision Time Measurement
+	Kernel driver in use: pcieport
+
+05:00.0 PCI bridge: Intel Corporation JHL7540 Thunderbolt 3 Bridge [Titan Ridge 4C 2018] (rev 06) (prog-if 00 [Normal decode])
+	Subsystem: Lenovo JHL7540 Thunderbolt 3 Bridge [Titan Ridge 4C 2018]
+	Flags: bus master, fast devsel, latency 0, IRQ 125, IOMMU group 15
+	Bus: primary=05, secondary=06, subordinate=06, sec-latency=0
+	I/O behind bridge: [disabled] [32-bit]
+	Memory behind bridge: bc100000-bc1fffff [size=1M] [32-bit]
+	Prefetchable memory behind bridge: [disabled] [64-bit]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [88] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Capabilities: [ac] Subsystem: Lenovo JHL7540 Thunderbolt 3 Bridge [Titan Ridge 4C 2018]
+	Capabilities: [c0] Express Downstream Port (Slot+), IntMsgNum 0
+	Capabilities: [50] Capability ID 0x15 [0000]
+	Capabilities: [100] Device Serial Number 49-dd-bd-31-cb-00-aa-00
+	Capabilities: [200] Advanced Error Reporting
+	Capabilities: [300] Virtual Channel
+	Capabilities: [400] Power Budgeting <?>
+	Capabilities: [500] Vendor Specific Information: ID=1234 Rev=1 Len=100 <?>
+	Capabilities: [600] Vendor Specific Information: ID=8086 Rev=2 Len=04c <?>
+	Capabilities: [700] Secondary PCI Express
+	Capabilities: [900] Access Control Services
+	Kernel driver in use: pcieport
+
+05:01.0 PCI bridge: Intel Corporation JHL7540 Thunderbolt 3 Bridge [Titan Ridge 4C 2018] (rev 06) (prog-if 00 [Normal decode])
+	Subsystem: Lenovo JHL7540 Thunderbolt 3 Bridge [Titan Ridge 4C 2018]
+	Flags: bus master, fast devsel, latency 0, IRQ 126, IOMMU group 16
+	Bus: primary=05, secondary=07, subordinate=2b, sec-latency=0
+	I/O behind bridge: [disabled] [32-bit]
+	Memory behind bridge: a4000000-afffffff [size=192M] [32-bit]
+	Prefetchable memory behind bridge: 6000000000-601fffffff [size=512M] [32-bit]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [88] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Capabilities: [ac] Subsystem: Lenovo JHL7540 Thunderbolt 3 Bridge [Titan Ridge 4C 2018]
+	Capabilities: [c0] Express Downstream Port (Slot+), IntMsgNum 0
+	Capabilities: [50] Capability ID 0x15 [0000]
+	Capabilities: [100] Device Serial Number 49-dd-bd-31-cb-00-aa-00
+	Capabilities: [200] Advanced Error Reporting
+	Capabilities: [300] Virtual Channel
+	Capabilities: [400] Power Budgeting <?>
+	Capabilities: [500] Vendor Specific Information: ID=1234 Rev=1 Len=100 <?>
+	Capabilities: [600] Vendor Specific Information: ID=8086 Rev=2 Len=04c <?>
+	Capabilities: [700] Secondary PCI Express
+	Capabilities: [900] Access Control Services
+	Kernel driver in use: pcieport
+
+05:02.0 PCI bridge: Intel Corporation JHL7540 Thunderbolt 3 Bridge [Titan Ridge 4C 2018] (rev 06) (prog-if 00 [Normal decode])
+	Subsystem: Lenovo JHL7540 Thunderbolt 3 Bridge [Titan Ridge 4C 2018]
+	Flags: bus master, fast devsel, latency 0, IRQ 127, IOMMU group 17
+	Bus: primary=05, secondary=2c, subordinate=2c, sec-latency=0
+	I/O behind bridge: [disabled] [32-bit]
+	Memory behind bridge: b0000000-b00fffff [size=1M] [32-bit]
+	Prefetchable memory behind bridge: [disabled] [64-bit]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [88] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Capabilities: [ac] Subsystem: Lenovo JHL7540 Thunderbolt 3 Bridge [Titan Ridge 4C 2018]
+	Capabilities: [c0] Express Downstream Port (Slot+), IntMsgNum 0
+	Capabilities: [50] Capability ID 0x15 [0000]
+	Capabilities: [100] Device Serial Number 49-dd-bd-31-cb-00-aa-00
+	Capabilities: [200] Advanced Error Reporting
+	Capabilities: [300] Virtual Channel
+	Capabilities: [400] Power Budgeting <?>
+	Capabilities: [500] Vendor Specific Information: ID=1234 Rev=1 Len=100 <?>
+	Capabilities: [600] Vendor Specific Information: ID=8086 Rev=2 Len=04c <?>
+	Capabilities: [700] Secondary PCI Express
+	Capabilities: [900] Access Control Services
+	Kernel driver in use: pcieport
+
+05:04.0 PCI bridge: Intel Corporation JHL7540 Thunderbolt 3 Bridge [Titan Ridge 4C 2018] (rev 06) (prog-if 00 [Normal decode])
+	Subsystem: Lenovo JHL7540 Thunderbolt 3 Bridge [Titan Ridge 4C 2018]
+	Flags: bus master, fast devsel, latency 0, IRQ 128, IOMMU group 18
+	Bus: primary=05, secondary=2d, subordinate=51, sec-latency=0
+	I/O behind bridge: [disabled] [32-bit]
+	Memory behind bridge: b0100000-bc0fffff [size=192M] [32-bit]
+	Prefetchable memory behind bridge: 6020000000-603fffffff [size=512M] [32-bit]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [88] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Capabilities: [ac] Subsystem: Lenovo JHL7540 Thunderbolt 3 Bridge [Titan Ridge 4C 2018]
+	Capabilities: [c0] Express Downstream Port (Slot+), IntMsgNum 0
+	Capabilities: [50] Capability ID 0x15 [0000]
+	Capabilities: [100] Device Serial Number 49-dd-bd-31-cb-00-aa-00
+	Capabilities: [200] Advanced Error Reporting
+	Capabilities: [300] Virtual Channel
+	Capabilities: [400] Power Budgeting <?>
+	Capabilities: [500] Vendor Specific Information: ID=1234 Rev=1 Len=100 <?>
+	Capabilities: [600] Vendor Specific Information: ID=8086 Rev=2 Len=04c <?>
+	Capabilities: [700] Secondary PCI Express
+	Capabilities: [900] Access Control Services
+	Kernel driver in use: pcieport
+
+06:00.0 System peripheral: Intel Corporation JHL7540 Thunderbolt 3 NHI [Titan Ridge 4C 2018] (rev 06)
+	Subsystem: Lenovo JHL7540 Thunderbolt 3 NHI [Titan Ridge 4C 2018]
+	Flags: bus master, fast devsel, latency 0, IRQ 255, IOMMU group 19
+	Memory at bc100000 (32-bit, non-prefetchable) [size=256K]
+	Memory at bc140000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [88] MSI: Enable- Count=1/1 Maskable- 64bit+
+	Capabilities: [c0] Express Endpoint, IntMsgNum 0
+	Capabilities: [a0] MSI-X: Enable- Count=16 Masked-
+	Capabilities: [100] Device Serial Number 49-dd-bd-31-cb-00-aa-00
+	Capabilities: [200] Advanced Error Reporting
+	Capabilities: [300] Virtual Channel
+	Capabilities: [400] Power Budgeting <?>
+	Capabilities: [500] Vendor Specific Information: ID=1234 Rev=1 Len=100 <?>
+	Capabilities: [600] Latency Tolerance Reporting
+
+07:00.0 PCI bridge: Intel Corporation JHL6540 Thunderbolt 3 Bridge (C step) [Alpine Ridge 4C 2016] (rev 02) (prog-if 00 [Normal decode])
+	Subsystem: Razer USA Ltd. JHL6540 Thunderbolt 3 Bridge (C step) [Alpine Ridge 4C 2016]
+	Physical Slot: 1
+	Flags: bus master, fast devsel, latency 0, IRQ 17, IOMMU group 20
+	Bus: primary=07, secondary=08, subordinate=2b, sec-latency=0
+	I/O behind bridge: [disabled] [32-bit]
+	Memory behind bridge: a4000000-afffffff [size=192M] [32-bit]
+	Prefetchable memory behind bridge: 6000000000-601fffffff [size=512M] [32-bit]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [88] MSI: Enable- Count=1/1 Maskable- 64bit+
+	Capabilities: [ac] Subsystem: Razer USA Ltd. JHL6540 Thunderbolt 3 Bridge (C step) [Alpine Ridge 4C 2016]
+	Capabilities: [c0] Express Upstream Port, IntMsgNum 0
+	Capabilities: [100] Device Serial Number c4-52-1d-21-0f-b7-d0-00
+	Capabilities: [200] Advanced Error Reporting
+	Capabilities: [300] Virtual Channel
+	Capabilities: [400] Power Budgeting <?>
+	Capabilities: [500] Vendor Specific Information: ID=1234 Rev=1 Len=0d8 <?>
+	Capabilities: [600] Latency Tolerance Reporting
+	Capabilities: [700] Secondary PCI Express
+	Kernel driver in use: pcieport
+
+08:01.0 PCI bridge: Intel Corporation JHL6540 Thunderbolt 3 Bridge (C step) [Alpine Ridge 4C 2016] (rev 02) (prog-if 00 [Normal decode])
+	Subsystem: Razer USA Ltd. JHL6540 Thunderbolt 3 Bridge (C step) [Alpine Ridge 4C 2016]
+	Flags: bus master, fast devsel, latency 0, IRQ 129, IOMMU group 21
+	Bus: primary=08, secondary=09, subordinate=09, sec-latency=0
+	I/O behind bridge: [disabled] [32-bit]
+	Memory behind bridge: a4000000-a57fffff [size=24M] [32-bit]
+	Prefetchable memory behind bridge: 6000000000-6017ffffff [size=384M] [32-bit]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [88] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Capabilities: [ac] Subsystem: Razer USA Ltd. JHL6540 Thunderbolt 3 Bridge (C step) [Alpine Ridge 4C 2016]
+	Capabilities: [c0] Express Downstream Port (Slot+), IntMsgNum 0
+	Capabilities: [100] Device Serial Number c4-52-1d-21-0f-b7-d0-00
+	Capabilities: [200] Advanced Error Reporting
+	Capabilities: [300] Virtual Channel
+	Capabilities: [400] Power Budgeting <?>
+	Capabilities: [500] Vendor Specific Information: ID=1234 Rev=1 Len=0d8 <?>
+	Capabilities: [700] Secondary PCI Express
+	Kernel driver in use: pcieport
+
+08:04.0 PCI bridge: Intel Corporation JHL6540 Thunderbolt 3 Bridge (C step) [Alpine Ridge 4C 2016] (rev 02) (prog-if 00 [Normal decode])
+	Subsystem: Razer USA Ltd. JHL6540 Thunderbolt 3 Bridge (C step) [Alpine Ridge 4C 2016]
+	Flags: bus master, fast devsel, latency 0, IRQ 130, IOMMU group 22
+	Bus: primary=08, secondary=0a, subordinate=2b, sec-latency=0
+	I/O behind bridge: [disabled] [32-bit]
+	Memory behind bridge: a5800000-afffffff [size=168M] [32-bit]
+	Prefetchable memory behind bridge: 6018000000-601fffffff [size=128M] [32-bit]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [88] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Capabilities: [ac] Subsystem: Razer USA Ltd. JHL6540 Thunderbolt 3 Bridge (C step) [Alpine Ridge 4C 2016]
+	Capabilities: [c0] Express Downstream Port (Slot+), IntMsgNum 0
+	Capabilities: [100] Device Serial Number c4-52-1d-21-0f-b7-d0-00
+	Capabilities: [200] Advanced Error Reporting
+	Capabilities: [300] Virtual Channel
+	Capabilities: [400] Power Budgeting <?>
+	Capabilities: [500] Vendor Specific Information: ID=1234 Rev=1 Len=0d8 <?>
+	Capabilities: [700] Secondary PCI Express
+	Kernel driver in use: pcieport
+
+09:00.0 VGA compatible controller: NVIDIA Corporation GA102 [GeForce RTX 3090] (rev a1) (prog-if 00 [VGA controller])
+	Subsystem: Gigabyte Technology Co., Ltd GA102 [GeForce RTX 3090]
+	Flags: bus master, fast devsel, latency 0, IRQ 168, IOMMU group 21
+	Memory at a4000000 (32-bit, non-prefetchable) [size=16M]
+	Memory at 6000000000 (64-bit, prefetchable) [size=256M]
+	Memory at 6010000000 (64-bit, prefetchable) [size=32M]
+	Expansion ROM at a5000000 [virtual] [disabled] [size=512K]
+	Capabilities: [60] Power Management version 3
+	Capabilities: [68] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Capabilities: [78] Express Legacy Endpoint, IntMsgNum 0
+	Capabilities: [b4] Vendor Specific Information: Len=14 <?>
+	Capabilities: [100] Virtual Channel
+	Capabilities: [250] Latency Tolerance Reporting
+	Capabilities: [258] L1 PM Substates
+	Capabilities: [128] Power Budgeting <?>
+	Capabilities: [420] Advanced Error Reporting
+	Capabilities: [600] Vendor Specific Information: ID=0001 Rev=1 Len=024 <?>
+	Capabilities: [900] Secondary PCI Express
+	Capabilities: [bb0] Physical Resizable BAR
+	Capabilities: [c1c] Physical Layer 16.0 GT/s <?>
+	Capabilities: [d00] Lane Margining at the Receiver
+	Capabilities: [e00] Data Link Feature <?>
+	Kernel driver in use: nvidia
+	Kernel modules: nvidia_drm, nvidia
+
+0a:00.0 PCI bridge: Intel Corporation JHL6540 Thunderbolt 3 Bridge (C step) [Alpine Ridge 4C 2016] (rev 02) (prog-if 00 [Normal decode])
+	Subsystem: Razer USA Ltd. JHL6540 Thunderbolt 3 Bridge (C step) [Alpine Ridge 4C 2016]
+	Physical Slot: 4-1
+	Flags: bus master, fast devsel, latency 0, IRQ 17, IOMMU group 22
+	Bus: primary=0a, secondary=0b, subordinate=0e, sec-latency=0
+	I/O behind bridge: [disabled] [32-bit]
+	Memory behind bridge: a5800000-afffffff [size=168M] [32-bit]
+	Prefetchable memory behind bridge: 6018000000-601fffffff [size=128M] [32-bit]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [88] MSI: Enable- Count=1/1 Maskable- 64bit+
+	Capabilities: [ac] Subsystem: Razer USA Ltd. JHL6540 Thunderbolt 3 Bridge (C step) [Alpine Ridge 4C 2016]
+	Capabilities: [c0] Express Upstream Port, IntMsgNum 0
+	Capabilities: [100] Device Serial Number c4-52-1c-c9-6e-b7-d0-00
+	Capabilities: [200] Advanced Error Reporting
+	Capabilities: [300] Virtual Channel
+	Capabilities: [400] Power Budgeting <?>
+	Capabilities: [500] Vendor Specific Information: ID=1234 Rev=1 Len=0d8 <?>
+	Capabilities: [600] Latency Tolerance Reporting
+	Capabilities: [700] Secondary PCI Express
+	Kernel driver in use: pcieport
+
+0b:00.0 PCI bridge: Intel Corporation JHL6540 Thunderbolt 3 Bridge (C step) [Alpine Ridge 4C 2016] (rev 02) (prog-if 00 [Normal decode])
+	Subsystem: Razer USA Ltd. JHL6540 Thunderbolt 3 Bridge (C step) [Alpine Ridge 4C 2016]
+	Flags: bus master, fast devsel, latency 0, IRQ 164, IOMMU group 22
+	Bus: primary=0b, secondary=0c, subordinate=0c, sec-latency=0
+	I/O behind bridge: [disabled] [32-bit]
+	Memory behind bridge: a5800000-a8ffffff [size=56M] [32-bit]
+	Prefetchable memory behind bridge: 6018000000-601a9fffff [size=42M] [32-bit]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [88] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Capabilities: [ac] Subsystem: Razer USA Ltd. JHL6540 Thunderbolt 3 Bridge (C step) [Alpine Ridge 4C 2016]
+	Capabilities: [c0] Express Downstream Port (Slot+), IntMsgNum 0
+	Capabilities: [100] Device Serial Number c4-52-1c-c9-6e-b7-d0-00
+	Capabilities: [200] Advanced Error Reporting
+	Capabilities: [300] Virtual Channel
+	Capabilities: [400] Power Budgeting <?>
+	Capabilities: [500] Vendor Specific Information: ID=1234 Rev=1 Len=0d8 <?>
+	Capabilities: [700] Secondary PCI Express
+	Kernel driver in use: pcieport
+
+0b:01.0 PCI bridge: Intel Corporation JHL6540 Thunderbolt 3 Bridge (C step) [Alpine Ridge 4C 2016] (rev 02) (prog-if 00 [Normal decode])
+	Subsystem: Razer USA Ltd. JHL6540 Thunderbolt 3 Bridge (C step) [Alpine Ridge 4C 2016]
+	Flags: bus master, fast devsel, latency 0, IRQ 165, IOMMU group 22
+	Bus: primary=0b, secondary=0d, subordinate=0d, sec-latency=0
+	I/O behind bridge: [disabled] [32-bit]
+	Memory behind bridge: a9000000-ac7fffff [size=56M] [32-bit]
+	Prefetchable memory behind bridge: 601aa00000-601d3fffff [size=42M] [32-bit]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [88] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Capabilities: [ac] Subsystem: Razer USA Ltd. JHL6540 Thunderbolt 3 Bridge (C step) [Alpine Ridge 4C 2016]
+	Capabilities: [c0] Express Downstream Port (Slot+), IntMsgNum 0
+	Capabilities: [100] Device Serial Number c4-52-1c-c9-6e-b7-d0-00
+	Capabilities: [200] Advanced Error Reporting
+	Capabilities: [300] Virtual Channel
+	Capabilities: [400] Power Budgeting <?>
+	Capabilities: [500] Vendor Specific Information: ID=1234 Rev=1 Len=0d8 <?>
+	Capabilities: [700] Secondary PCI Express
+	Kernel driver in use: pcieport
+
+0b:02.0 PCI bridge: Intel Corporation JHL6540 Thunderbolt 3 Bridge (C step) [Alpine Ridge 4C 2016] (rev 02) (prog-if 00 [Normal decode])
+	Subsystem: Razer USA Ltd. JHL6540 Thunderbolt 3 Bridge (C step) [Alpine Ridge 4C 2016]
+	Flags: bus master, fast devsel, latency 0, IRQ 166, IOMMU group 22
+	Bus: primary=0b, secondary=0e, subordinate=0e, sec-latency=0
+	I/O behind bridge: [disabled] [32-bit]
+	Memory behind bridge: ac800000-afffffff [size=56M] [32-bit]
+	Prefetchable memory behind bridge: 601d400000-601fdfffff [size=42M] [32-bit]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [88] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Capabilities: [ac] Subsystem: Razer USA Ltd. JHL6540 Thunderbolt 3 Bridge (C step) [Alpine Ridge 4C 2016]
+	Capabilities: [c0] Express Downstream Port (Slot+), IntMsgNum 0
+	Capabilities: [100] Device Serial Number c4-52-1c-c9-6e-b7-d0-00
+	Capabilities: [200] Advanced Error Reporting
+	Capabilities: [300] Virtual Channel
+	Capabilities: [400] Power Budgeting <?>
+	Capabilities: [500] Vendor Specific Information: ID=1234 Rev=1 Len=0d8 <?>
+	Capabilities: [700] Secondary PCI Express
+	Kernel driver in use: pcieport
+
+2c:00.0 USB controller: Intel Corporation JHL7540 Thunderbolt 3 USB Controller [Titan Ridge 4C 2018] (rev 06) (prog-if 30 [XHCI])
+	Subsystem: Lenovo JHL7540 Thunderbolt 3 USB Controller [Titan Ridge 4C 2018]
+	Flags: fast devsel, IRQ 156, IOMMU group 23
+	Memory at b0000000 (32-bit, non-prefetchable) [size=64K]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [88] MSI: Enable+ Count=8/8 Maskable- 64bit+
+	Capabilities: [c0] Express Endpoint, IntMsgNum 0
+	Capabilities: [100] Device Serial Number 49-dd-bd-31-cb-00-aa-00
+	Capabilities: [200] Advanced Error Reporting
+	Capabilities: [300] Virtual Channel
+	Capabilities: [400] Power Budgeting <?>
+	Capabilities: [500] Vendor Specific Information: ID=1234 Rev=1 Len=100 <?>
+	Capabilities: [600] Vendor Specific Information: ID=8086 Rev=2 Len=04c <?>
+	Capabilities: [700] Secondary PCI Express
+	Capabilities: [800] Latency Tolerance Reporting
+	Kernel driver in use: xhci_hcd
+
+2d:00.0 PCI bridge: Intel Corporation JHL6340 Thunderbolt 3 Bridge (C step) [Alpine Ridge 2C 2016] (rev 02) (prog-if 00 [Normal decode])
+	Subsystem: Razer USA Ltd. JHL6340 Thunderbolt 3 Bridge (C step) [Alpine Ridge 2C 2016]
+	Physical Slot: 4
+	Flags: bus master, fast devsel, latency 0, IRQ 16, IOMMU group 24
+	Bus: primary=2d, secondary=2e, subordinate=2f, sec-latency=0
+	I/O behind bridge: [disabled] [32-bit]
+	Memory behind bridge: b0800000-bbffffff [size=184M] [32-bit]
+	Prefetchable memory behind bridge: 6020000000-603fffffff [size=512M] [32-bit]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [88] MSI: Enable- Count=1/1 Maskable- 64bit+
+	Capabilities: [ac] Subsystem: Razer USA Ltd. JHL6340 Thunderbolt 3 Bridge (C step) [Alpine Ridge 2C 2016]
+	Capabilities: [c0] Express Upstream Port, IntMsgNum 0
+	Capabilities: [100] Device Serial Number 3a-ca-84-32-99-c9-a0-00
+	Capabilities: [200] Advanced Error Reporting
+	Capabilities: [300] Virtual Channel
+	Capabilities: [400] Power Budgeting <?>
+	Capabilities: [500] Vendor Specific Information: ID=1234 Rev=1 Len=0d8 <?>
+	Capabilities: [600] Latency Tolerance Reporting
+	Capabilities: [700] Secondary PCI Express
+	Kernel driver in use: pcieport
+
+2e:01.0 PCI bridge: Intel Corporation JHL6340 Thunderbolt 3 Bridge (C step) [Alpine Ridge 2C 2016] (rev 02) (prog-if 00 [Normal decode])
+	Subsystem: Razer USA Ltd. JHL6340 Thunderbolt 3 Bridge (C step) [Alpine Ridge 2C 2016]
+	Flags: bus master, fast devsel, latency 0, IRQ 167, IOMMU group 25
+	Bus: primary=2e, secondary=2f, subordinate=2f, sec-latency=0
+	I/O behind bridge: [disabled] [32-bit]
+	Memory behind bridge: b0800000-bbffffff [size=184M] [32-bit]
+	Prefetchable memory behind bridge: 6020000000-603fffffff [size=512M] [32-bit]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [88] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Capabilities: [ac] Subsystem: Razer USA Ltd. JHL6340 Thunderbolt 3 Bridge (C step) [Alpine Ridge 2C 2016]
+	Capabilities: [c0] Express Downstream Port (Slot+), IntMsgNum 0
+	Capabilities: [100] Device Serial Number 3a-ca-84-32-99-c9-a0-00
+	Capabilities: [200] Advanced Error Reporting
+	Capabilities: [300] Virtual Channel
+	Capabilities: [400] Power Budgeting <?>
+	Capabilities: [500] Vendor Specific Information: ID=1234 Rev=1 Len=0d8 <?>
+	Capabilities: [700] Secondary PCI Express
+	Kernel driver in use: pcieport
+
+2f:00.0 VGA compatible controller: NVIDIA Corporation GA102 [GeForce RTX 3090] (rev a1) (prog-if 00 [VGA controller])
+	Subsystem: Hewlett-Packard Company GA102 [GeForce RTX 3090]
+	Flags: bus master, fast devsel, latency 0, IRQ 169, IOMMU group 25
+	Memory at b1000000 (32-bit, non-prefetchable) [size=16M]
+	Memory at 6020000000 (64-bit, prefetchable) [size=512M]
+	Memory at b2000000 (64-bit, prefetchable) [size=32M]
+	Expansion ROM at b0800000 [virtual] [disabled] [size=512K]
+	Capabilities: [60] Power Management version 3
+	Capabilities: [68] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Capabilities: [78] Express Legacy Endpoint, IntMsgNum 0
+	Capabilities: [b4] Vendor Specific Information: Len=14 <?>
+	Capabilities: [100] Virtual Channel
+	Capabilities: [250] Latency Tolerance Reporting
+	Capabilities: [258] L1 PM Substates
+	Capabilities: [128] Power Budgeting <?>
+	Capabilities: [420] Advanced Error Reporting
+	Capabilities: [600] Vendor Specific Information: ID=0001 Rev=1 Len=024 <?>
+	Capabilities: [900] Secondary PCI Express
+	Capabilities: [bb0] Physical Resizable BAR
+	Capabilities: [c1c] Physical Layer 16.0 GT/s <?>
+	Capabilities: [d00] Lane Margining at the Receiver
+	Capabilities: [e00] Data Link Feature <?>
+	Kernel driver in use: nvidia
+	Kernel modules: nvidia_drm, nvidia
+

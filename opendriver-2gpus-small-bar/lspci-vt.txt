@@ -1,0 +1,25 @@
+-[0000:00]-+-00.0  Intel Corporation 8th Gen Core Processor Host Bridge/DRAM Registers
+           +-01.0-[01]----00.0  NVIDIA Corporation TU106GLM [Quadro RTX 3000 Mobile / Max-Q]
+           +-02.0  Intel Corporation CoffeeLake-H GT2 [UHD Graphics 630]
+           +-04.0  Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Thermal Subsystem
+           +-08.0  Intel Corporation Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th/8th Gen Core Processor Gaussian Mixture Model
+           +-12.0  Intel Corporation Cannon Lake PCH Thermal Controller
+           +-14.0  Intel Corporation Cannon Lake PCH USB 3.1 xHCI Host Controller
+           +-14.2  Intel Corporation Cannon Lake PCH Shared SRAM
+           +-15.0  Intel Corporation Cannon Lake PCH Serial IO I2C Controller #0
+           +-15.1  Intel Corporation Cannon Lake PCH Serial IO I2C Controller #1
+           +-16.0  Intel Corporation Cannon Lake PCH HECI Controller
+           +-16.3  Intel Corporation Cannon Lake PCH Active Management Technology - SOL
+           +-1b.0-[02]----00.0  Samsung Electronics Co Ltd NVMe SSD Controller SM981/PM981/PM983
+           +-1c.0-[04-51]----00.0-[05-51]--+-00.0-[06]----00.0  Intel Corporation JHL7540 Thunderbolt 3 NHI [Titan Ridge 4C 2018]
+           |                               +-01.0-[07-2b]----00.0-[08-2b]--+-01.0-[09]----00.0  NVIDIA Corporation GA102 [GeForce RTX 3090]
+           |                               |                               \-04.0-[0a-2b]----00.0-[0b-0e]--+-00.0-[0c]--
+           |                               |                                                               +-01.0-[0d]--
+           |                               |                                                               \-02.0-[0e]--
+           |                               +-02.0-[2c]----00.0  Intel Corporation JHL7540 Thunderbolt 3 USB Controller [Titan Ridge 4C 2018]
+           |                               \-04.0-[2d-51]----00.0-[2e-2f]----01.0-[2f]----00.0  NVIDIA Corporation GA102 [GeForce RTX 3090]
+           +-1e.0  Intel Corporation Cannon Lake PCH Serial IO UART Host Controller
+           +-1f.0  Intel Corporation Cannon Lake LPC Controller
+           +-1f.4  Intel Corporation Cannon Lake PCH SMBus Controller
+           +-1f.5  Intel Corporation Cannon Lake PCH SPI Controller
+           \-1f.6  Intel Corporation Ethernet Connection (7) I219-LM

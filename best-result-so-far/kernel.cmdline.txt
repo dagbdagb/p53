@@ -1,0 +1,1 @@
+root=/dev/nvme0n1p2 net.ifnames=0 vt.global_cursor_default=1 consoleblank=180 init=/lib/systemd/systemd button.lid_init_state=open i915.enable_guc=2 i915.enable_fbc=1 pci=realloc=on,hpiosize=1024,hpmmioprefsize=64G,pcie_scan_all,hpbussize=0x33,rom BOOT_IMAGE=/kernel-6.8.6-gt-64g.efi root=PARTUUID=a8f4911b-b44b-466a-9c9c-d30789efbe40 ro
