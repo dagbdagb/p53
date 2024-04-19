@@ -18,12 +18,13 @@ It does not make up for the 4x path.
 
 Resizable BAR requires 'Above 4G decoding' enabled in BIOS, which is the case for the P53. (Not a visible option.)
 On Windows, support for resizable BAR must also be present in the motherboard BIOS. 
-And this, in turn, appears to require a gen 10 or better CPU. For some reason.
+And this, in turn, appears to require a gen 10 or better CPU. For some reason. Workarounds may exist.
 
 Linux has 'native support' for resizable BAR as long as 'Above 4G decoding' is present. So not bound by what 
 the BIOS offers.
 
-Finally, the GPU(s) must also support resizable BAR. Applies to both Windows and Linux.
+Finally, the GPU VBIOS must also support resizable BAR. Applies to both Windows and Linux.
+Officially, this only exists for Ampere and up. Workarounds may exist.
 
 For now, I manage to enable resizable BAR for one GPU. (Well, both are resizable, but only one scales up all the way.)
 
