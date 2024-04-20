@@ -1,0 +1,882 @@
+SecureBoot:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          SecureBoot
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+LockBIOSSetting:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          LockBIOSSetting
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+WindowsUEFIFirmwareUpdate:
+  Setting type:         Enumeration
+  Current Value:        Enable
+  Description:          BIOS updates delivered via LVFS or Windows Update
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+BluetoothAccess:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          BluetoothAccess
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+FingerprintReaderAccess:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          FingerprintReaderAccess
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+WakeOnLANDock:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          WakeOnLANDock
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+BIOSPasswordAtUnattendedBoot:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          BIOSPasswordAtUnattendedBoot
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+PasswordBeep:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          PasswordBeep
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+PhysicalPresenceForTpmClear:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          PhysicalPresenceForTpmClear
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+BootOrder:
+  Setting type:         Enumeration
+  Current Value:        USBHDD:NVMe0:PXEBOOT:USBFDD
+  Description:          BootOrder
+  Read Only:            False
+  Possible Values:
+    0:                  HDD0
+    1:                  HDD1
+    2:                  HDD2
+    3:                  HDD3
+    4:                  HDD4
+    5:                  PXEBOOT
+    6:                  ATAPICD0
+    7:                  ATAPICD1
+    8:                  ATAPICD2
+    9:                  USBFDD
+    10:                 USBCD
+    11:                 USBHDD
+    12:                 OtherHDD
+    13:                 OtherCD
+    14:                 NVMe0
+    15:                 NVMe1
+    16:                 NVMe2
+    17:                 LENOVOCLOUD
+    18:                 NODEV
+
+MemoryCardSlotAccess:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          MemoryCardSlotAccess
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+MACAddressPassThrough:
+  Setting type:         Enumeration
+  Current Value:        Enable
+  Description:          MACAddressPassThrough
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+    2:                  Second
+
+ThunderboltAccess:
+  Setting type:         Enumeration
+  Current Value:        Enable
+  Description:          ThunderboltAccess
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+MinimumPasswordLength:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          MinimumPasswordLength
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  4
+    2:                  5
+    3:                  6
+    4:                  7
+    5:                  8
+    6:                  9
+    7:                  10
+    8:                  11
+    9:                  12
+
+TouchPad:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          TouchPad
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Automatic
+
+AMTControl:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          AMTControl
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+CoreMultiProcessing:
+  Setting type:         Enumeration
+  Current Value:        Enable
+  Description:          CoreMultiProcessing
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+BootDeviceListF12Option:
+  Setting type:         Enumeration
+  Current Value:        Enable
+  Description:          BootDeviceListF12Option
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+BIOSPasswordAtBootDeviceList:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          BIOSPasswordAtBootDeviceList
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+EthernetLANAccess:
+  Setting type:         Enumeration
+  Current Value:        Enable
+  Description:          EthernetLANAccess
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+BootOrderLock:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          BootOrderLock
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+FingerprintSecurityMode:
+  Setting type:         Enumeration
+  Current Value:        Normal
+  Description:          FingerprintSecurityMode
+  Read Only:            False
+  Possible Values:
+    0:                  Normal
+    1:                  High
+
+TXTFeature:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          TXTFeature
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+DataExecutionPrevention:
+  Setting type:         Enumeration
+  Current Value:        Enable
+  Description:          DataExecutionPrevention
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+FnKeyAsPrimary:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          FnKeyAsPrimary
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+GraphicsDevice:
+  Setting type:         Enumeration
+  Current Value:        SwitchableGfx
+  Description:          GraphicsDevice
+  Read Only:            False
+  Possible Values:
+    0:                  SwitchableGfx
+    1:                  DiscreteGfx
+
+TotalGraphicsMemory:
+  Setting type:         Enumeration
+  Current Value:        256MB
+  Description:          TotalGraphicsMemory
+  Read Only:            False
+  Possible Values:
+    0:                  256MB
+    1:                  512MB
+
+FnSticky:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          FnSticky
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+NfcAccess:
+  Setting type:         Enumeration
+  Current Value:        Enable
+  Description:          NfcAccess
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+ThinkShieldsecurewipe:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          ThinkShieldsecurewipe
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+ChargeInBatteryMode:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          ChargeInBatteryMode
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+BootMode:
+  Setting type:         Enumeration
+  Current Value:        Diagnostics
+  Description:          BootMode
+  Read Only:            False
+  Possible Values:
+    0:                  Quick
+    1:                  Diagnostics
+
+I8254ClockGating:
+  Setting type:         Enumeration
+  Current Value:        Auto
+  Description:          I8254ClockGating
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Auto
+
+AbsolutePersistenceModuleActivation:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          AbsolutePersistenceModuleActivation
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+SetupUI:
+  Setting type:         Enumeration
+  Current Value:        SimpleText
+  Description:          SetupUI
+  Read Only:            False
+  Possible Values:
+    0:                  SimpleText
+    1:                  Graphical
+
+StartupOptionKeys:
+  Setting type:         Enumeration
+  Current Value:        Enable
+  Description:          StartupOptionKeys
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+WirelessAutoDisconnection:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          WirelessAutoDisconnection
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+AlwaysOnUSB:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          AlwaysOnUSB
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+BootDisplayDevice:
+  Setting type:         Enumeration
+  Current Value:        LCD
+  Description:          BootDisplayDevice
+  Read Only:            False
+  Possible Values:
+    0:                  LCD
+    1:                  USBTypeC
+    2:                  DisplayPort
+    3:                  HDMI
+
+ThunderboltSecurityLevel:
+  Setting type:         Enumeration
+  Current Value:        NoSecurity
+  Description:          ThunderboltSecurityLevel
+  Read Only:            False
+  Possible Values:
+    0:                  NoSecurity
+    1:                  UserAuthorization
+    2:                  SecureConnect
+    3:                  DisplayPortandUSB
+    4:                  USBDockingOnly
+
+IndicatorsControl:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          IndicatorsControl
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+AdaptiveThermalManagementBattery:
+  Setting type:         Enumeration
+  Current Value:        Balanced
+  Description:          AdaptiveThermalManagementBattery
+  Read Only:            False
+  Possible Values:
+    0:                  MaximizePerformance
+    1:                  Balanced
+
+FingerprintPasswordAuthentication:
+  Setting type:         Enumeration
+  Current Value:        Enable
+  Description:          FingerprintPasswordAuthentication
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+KeyboardBeep:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          KeyboardBeep
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+TrackPoint:
+  Setting type:         Enumeration
+  Current Value:        Automatic
+  Description:          TrackPoint
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Automatic
+
+OnByAcAttach:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          OnByAcAttach
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+WirelessWANAccess:
+  Setting type:         Enumeration
+  Current Value:        Enable
+  Description:          WirelessWANAccess
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+SecurityChip:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          SecurityChip
+  Read Only:            False
+  Possible Values:
+    0:                  Active
+    1:                  Inactive
+    2:                  Disable
+    3:                  Enable
+
+DeviceGuard:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          DeviceGuard
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+BottomCoverTamperDetected:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          BottomCoverTamperDetected
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+HyperThreadingTechnology:
+  Setting type:         Enumeration
+  Current Value:        Enable
+  Description:          HyperThreadingTechnology
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+AdaptiveThermalManagementAC:
+  Setting type:         Enumeration
+  Current Value:        MaximizePerformance
+  Description:          AdaptiveThermalManagementAC
+  Read Only:            False
+  Possible Values:
+    0:                  MaximizePerformance
+    1:                  Balanced
+
+FnCtrlKeySwap:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          FnCtrlKeySwap
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+HardDiskPasswordControl:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          HardDiskPasswordControl
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+VirtualizationTechnology:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          VirtualizationTechnology
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+KernelDMAProtection:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          KernelDMAProtection
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+NetworkBoot:
+  Setting type:         Enumeration
+  Current Value:        NVMe0
+  Description:          NetworkBoot
+  Read Only:            False
+  Possible Values:
+    0:                  HDD0
+    1:                  HDD1
+    2:                  HDD2
+    3:                  HDD3
+    4:                  HDD4
+    5:                  PXEBOOT
+    6:                  ATAPICD0
+    7:                  ATAPICD1
+    8:                  ATAPICD2
+    9:                  USBFDD
+    10:                 USBCD
+    11:                 USBHDD
+    12:                 OtherHDD
+    13:                 OtherCD
+    14:                 NVMe0
+    15:                 NVMe1
+    16:                 NVMe2
+    17:                 LENOVOCLOUD
+    18:                 NODEV
+
+OffByAcDetach:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          OffByAcDetach
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+WakeByThunderbolt:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          WakeByThunderbolt
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+SystemManagementPasswordControl:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          SystemManagementPasswordControl
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+SecureRollBackPrevention:
+  Setting type:         Enumeration
+  Current Value:        Enable
+  Description:          SecureRollBackPrevention
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+PasswordCountExceededError:
+  Setting type:         Enumeration
+  Current Value:        Enable
+  Description:          PasswordCountExceededError
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+USBPortAccess:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          USBPortAccess
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+MicrophoneAccess:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          MicrophoneAccess
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+InternalStorageTamper:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          InternalStorageTamper
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+IntegratedAudioAccess:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          IntegratedAudioAccess
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+TouchPanel:
+  Setting type:         Enumeration
+  Current Value:        Enable
+  Description:          TouchPanel
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+pending_reboot:
+  Current Value:        0
+  Description:          Settings will apply after system reboots
+  Read Only:            True
+
+WirelessLANAccess:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          WirelessLANAccess
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+SmartCardSlotAccess:
+  Setting type:         Enumeration
+  Current Value:        Enable
+  Description:          SmartCardSlotAccess
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+PreBootForThunderboltDevice:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          PreBootForThunderboltDevice
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+    2:                  Pre-BootACL
+
+ThunderboltBIOSAssistMode:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          ThunderboltBIOSAssistMode
+  Read Only:            False
+  Possible Values:
+    0:                  Enable
+    1:                  Disable
+
+SpeedStep:
+  Setting type:         Enumeration
+  Current Value:        Enable
+  Description:          SpeedStep
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+VTdFeature:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          VTdFeature
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+LenovoCloudServices:
+  Setting type:         Enumeration
+  Current Value:        Enable
+  Description:          LenovoCloudServices
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+SGXControl:
+  Setting type:         Enumeration
+  Current Value:        SoftwareControl
+  Description:          SGXControl
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+    2:                  SoftwareControl
+
+WiFiNetworkBoot:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          WiFiNetworkBoot
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+WakeOnLAN:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          WakeOnLAN
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  ACOnly
+    2:                  ACandBattery
+    3:                  Enable
+
+EthernetLANOptionROM:
+  Setting type:         Enumeration
+  Current Value:        Enable
+  Description:          EthernetLANOptionROM
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+BIOSUpdateByEndUsers:
+  Setting type:         Enumeration
+  Current Value:        Enable
+  Description:          BIOSUpdateByEndUsers
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+BIOSSetupConfigurations:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          BIOSSetupConfigurations
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+FingerprintPredesktopAuthentication:
+  Setting type:         Enumeration
+  Current Value:        Enable
+  Description:          FingerprintPredesktopAuthentication
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+IPv6NetworkStack:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          IPv6NetworkStack
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+IntegratedCameraAccess:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          IntegratedCameraAccess
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+UefiPxeBootPriority:
+  Setting type:         Enumeration
+  Current Value:        IPv4First
+  Description:          UefiPxeBootPriority
+  Read Only:            False
+  Possible Values:
+    0:                  IPv6First
+    1:                  IPv4First
+
+BIOSPasswordAtReboot:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          BIOSPasswordAtReboot
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+IPv4NetworkStack:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          IPv4NetworkStack
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+USBKeyProvisioning:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          USBKeyProvisioning
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+PowerOnPasswordControl:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          PowerOnPasswordControl
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+CPUPowerManagement:
+  Setting type:         Enumeration
+  Current Value:        Enable
+  Description:          CPUPowerManagement
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
+BootTimeExtension:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          BootTimeExtension
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  1
+    2:                  2
+    3:                  3
+    4:                  5
+    5:                  10
+
+EnhancedWindowsBiometricSecurity:
+  Setting type:         Enumeration
+  Current Value:        Disable
+  Description:          EnhancedWindowsBiometricSecurity
+  Read Only:            False
+  Possible Values:
+    0:                  Disable
+    1:                  Enable
+
